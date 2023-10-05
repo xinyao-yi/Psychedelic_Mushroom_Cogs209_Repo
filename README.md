@@ -1,4 +1,4 @@
 ## Psychedelic_Mushroom_Cogs209_Repo
-The effect of Random Forest is better than Logistic Regression on this Psychedelic mushroom dataset which contains various types of independent variables, such as demographic features (sex, age, ethnicity, etc.), health and well-being condition, socioeconomic conditions, and previous knowledge about PM. 
+The result shows that Random Forest algorithm (predicted accuracy of boosted model: 0.933) outperforms Logistic Regression (predicted accuracy of boosted model: 0.930) on this Psychedelic Mushroom (PM) Use dataset which contains various types of independent variables, such as demographic features (sex, age, ethnicity, etc.), health and well-being condition, socioeconomic conditions, and previous knowledge about PM. 
 
-The result shows xxx plays an important role in positive use of PM.
+Both boosted models which incorporate the factors of "previous knowledge about PM" outperform the baseline model (lr model: 0.930 vs 0.928; rf model: 0.933 vs 0.930). Furthermore, the key features of importance shift towards "previous knowledge about PM" after the inclusion of these factors ("Psy2_no_knowledge_of_use" ranked 1st in the lr boosted model; "Psy1_knowledge_of_positive_use" and BMI both ranked 1st in the rf boosted model).
